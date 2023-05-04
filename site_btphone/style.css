@@ -1,0 +1,23 @@
+body {
+    background-color: #1C1C21;
+}
+
+.navbar {
+    background-color: #6A6B70;
+}
+
+.nav .nav-link.active {
+    background-color: #1C1C21;
+    color: #FFFFFF;
+}
+
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #FFFFFF;
+}
+
+#sobre {
+    background: radial-gradient(circle, rgb(212, 207, 207)0%, rgba(38,38,44,1) 100%);
+}
