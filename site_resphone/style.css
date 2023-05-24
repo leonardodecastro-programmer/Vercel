@@ -14,11 +14,8 @@
     color: var(--color2);
 }
 
-html,body {
-    height: 100%;
-}
-
 body {
+    /*height: 100vh;*/
     font-family: Arial, Helvetica, sans-serif;
     font-family: 'Roboto', sans-serif;
     background-color: var(--color3);
@@ -48,9 +45,14 @@ header a {
     text-decoration: none;
 }
 
+.container {
+    margin-bottom: 20px;
+}
+
 .main {
     margin: auto;
     max-width: 70%;
+    height: 100%;
 }
 
 .about-img {
@@ -73,6 +75,7 @@ header a {
 
 .footers h1, .footers p, .footers button {
     margin-top: 15px;
+    text-align: center;
 }
 
 button {
@@ -96,7 +99,7 @@ img {
     width: 100%;
 }
 
-@media only screen and (min-width: 641px) {
+@media screen and (min-width: 641px) {
     #products {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
@@ -109,7 +112,7 @@ img {
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     #products {
         display: grid;
         grid-template-columns: repeat(4, 1fr);

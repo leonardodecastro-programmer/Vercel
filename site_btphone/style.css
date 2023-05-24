@@ -37,6 +37,9 @@ body {
     height: 70vh;
 }
 
+.carousel-inner {
+}
+
 #speak {
     background: radial-gradient(circle, #d4cfcf 0%, #26262c 100%);
     display: flex;
